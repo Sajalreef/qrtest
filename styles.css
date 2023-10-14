@@ -1,90 +1,52 @@
-.mainrest{
-    background-color: white;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- 
-    
-    
-
-   
+.resturanticon{
+background-color: white;
+width: 70px;
+height: 80px;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 10px;
+margin: 0;
+padding: 0;
 }
 
-.d-block{
-    padding: 20px;
-    width: 8rem;
-    width: 8rem;
-  
-}
-
-.icons{
-    color: orange;
-    width: 50px;
-}
-.sajalreef{
-    width: 75%;
-    height: 10%; 
-    background-color: white;
-    border-radius: 30px;
-    padding: 40px;
-}
-
-.jj{
-    width: 30px;
-    height: 30px;
-}
-.title{
-    text-align: center;
-    margin-right: 20px;
-    font-size: 20px;
-    font-weight: bolder;
-    padding-right   :0.05rem;
-    margin-bottom: 20px;
-}
-
-@media screen and (min-width: 550px) {
-   
-    .mainrest{
-        background-color: white;
-        border-radius: 30px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 12rem;
-        height: 12rem;
-        
-        
-    
-       
-    }
-    .d-block{
-        padding: 20px;
-        width: 10rem;
-      
-    }
-
-
-    .sajalreef{
-        width: 60rem;
-        height: 15rem; 
-        background-color: white;
-        border-radius: 40px;
-        margin: 40px;
-        padding-bottom: 10px;
-    }
-    .title{
-        text-align: center;
-        margin-right: 20px;
-        font-size: 40px;
-        font-weight: bolder;
-        padding-right   :0.05rem;
-        margin-bottom: 40px;
-    }
-    
-.jj{
+.imgicon{
     width: 50px;
     height: 50px;
 }
-  
+
+
+.footerr{
+
+    color: white;
+    margin-top:67%;
+    text-align: center;
 }
+
+
+
+
+@media screen and (min-width: 500px) {
+    .resturanticon{
+        background-color: white;
+        width: 140px;
+        height: 160px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        margin: 0;
+        padding: 0;
+        }
+        
+        .imgicon{
+            width: 100px;
+            height: 100px;
+        }
+        
+        .all{
+            width: 100%;
+            margin: auto;
+            padding: auto;
+        }
+  }
