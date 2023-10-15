@@ -34,7 +34,7 @@ border-radius: 10px;
     margin-left: 0;
     margin-right: 0;
    
-  
+   
    align-items: center;
    justify-items: center;
    justify-content: center;
@@ -44,12 +44,20 @@ border-radius: 10px;
 }
 
 
-.footerr{
+.footerrr{
 
     color: white;
     margin-top:75%;
     text-align: center;
     background-color:#CDAB5A;
+    width: 100%;
+}
+.footerr{
+
+    color: white;
+    margin-top:75%;
+    text-align: center;
+   
     width: 100%;
 }
 
