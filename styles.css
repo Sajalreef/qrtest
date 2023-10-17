@@ -1,24 +1,32 @@
-body{
+body {
     background-color: black;
-   
     margin: 0;
     padding: 0;
     align-items: center;
     height: 100vh;
-    
-    overflow-y: auto
+    overflow-y: auto; /* This enables vertical scroll */
 }
-@media (max-width: 767px){
-    body{
-        background-color: black;
-       
-        margin: 0;
-        padding: 0;
-        align-items: center;
-        height: 100vh;
-        overflow: hidden;
+
+/* Media query for iPad-sized screens and larger */
+@media (min-width: 768px) {
+    body {
+        overflow-y: auto; /* Enable scroll for laptop and iPad-sized screens */
     }
 }
+
+/* Media query for mobile screens in portrait orientation */
+@media (max-width: 767px) and (orientation: portrait) {
+    body {
+        overflow-y: hidden; /* Lock scroll in portrait orientation */
+    }
+}
+With the addition of (orientation: portrait) in the media query for mobile screens, this code will lock scrolling on mobile devices in portrait orientation but allow it when the device is in landscape (horizontal) orientation.
+
+
+
+
+
+
 
 .cardd{
     padding-top: 20px;
