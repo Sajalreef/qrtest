@@ -20,7 +20,7 @@ body {
         overflow-y: hidden; /* Lock scroll in portrait orientation */
     }
 }
-With the addition of (orientation: portrait) in the media query for mobile screens, this code will lock scrolling on mobile devices in portrait orientation but allow it when the device is in landscape (horizontal) orientation.
+
 
 
 
