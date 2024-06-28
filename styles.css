@@ -1,13 +1,15 @@
 body {
     @font-face {
-        font-family: 'Kohinoor Arabic Bold';
-        src: url('/fonts/Kohinoor-Arabic-Bold.woff2') format('woff2'),
-             url('/fonts/Kohinoor-Arabic-Bold.woff') format('woff'),
-             url('/fonts/Kohinoor-Arabic-Bold.ttf') format('truetype');
+        font-family: 'Kohinoor Arabic';
+        src: url('KohinoorArabic-Bold.woff2') format('woff2'),
+            url('KohinoorArabic-Bold.woff') format('woff');
         font-weight: bold;
         font-style: normal;
+        font-display: swap;
     }
-    font-family: 'Kohinoor Arabic Bold', sans-serif;
+    
+    
+    font-family: 'Kohinoor Arabic', sans-serif;
     background-color: black;
     margin: 0;
     padding: 0;
