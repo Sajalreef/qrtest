@@ -1,4 +1,12 @@
 body {
+    @font-face {
+        font-family: 'Kohinoor Arabic Bold';
+        src: url('/fonts/Kohinoor-Arabic-Bold.woff2') format('woff2'),
+             url('/fonts/Kohinoor-Arabic-Bold.woff') format('woff'),
+             url('/fonts/Kohinoor-Arabic-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+    }
     font-family: 'Kohinoor Arabic Bold', sans-serif;
     background-color: black;
     margin: 0;
