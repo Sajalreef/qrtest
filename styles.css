@@ -1,15 +1,15 @@
+@font-face {
+    font-family: 'Kohinoor Arabic';
+    src: url('KohinoorArabic-Bold.woff2') format('woff2'),
+         url('KohinoorArabic-Bold.woff') format('woff'),
+         url('Kohinoor Arabic Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
-    @font-face {
-        font-family: 'Kohinoor Arabic';
-        src: url('KohinoorArabic-Bold.woff2') format('woff2'),
-            url('KohinoorArabic-Bold.woff') format('woff');
-        font-weight: bold;
-        font-style: normal;
-        font-display: swap;
-    }
-    
-    
-    font-family: 'Kohinoor Arabic', sans-serif;
+    font-family: 'Kohinoor Arabic';
     background-color: black;
     margin: 0;
     padding: 0;
@@ -32,60 +32,45 @@ body {
     }
 }
 
-
-
-
-
-
-
-
-.cardd{
+.cardd {
     padding-top: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
     background-color: white;
     border-radius: 20px;
-    width:350px;
-    height: 150px ;
+    width: 350px;
+    height: 150px;
     margin-left: 0;
     margin-right: 0;
-   
-   
-   align-items: center;
-   justify-items: center;
-   justify-content: center;
-  
-  
-   
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
 }
 
-.jj{
+.jj {
     margin: 0;
     width: 30px;
     height: 30px;
     text-align: right;
 }
 
-.title{
+.title {
     margin-right: 20px;
     margin-bottom: 25px;
     font-size: 20px;
     font-weight: bolder;
-  
 }
 
-.boxx{
-    text-align: center; 
-   
-  
+.boxx {
+    text-align: center;
 }
 
-.imgicon{
-    
+.imgicon {
     background-color: white;
     padding: 12px;
 }
-.tend{
+
+.tend {
     margin-top: 10px;
     color: white;
 }
