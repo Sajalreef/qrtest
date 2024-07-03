@@ -75,7 +75,7 @@ body {
     color: white;
 }
 .announcement {
-    background: linear-gradient(to right, #f15628, #f89a76); /* Red-orange gradient background */
+    background-color: #f15628; /* Red-orange gradient background */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
